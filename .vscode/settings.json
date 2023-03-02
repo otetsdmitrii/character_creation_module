@@ -1,4 +1,19 @@
 {
     "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "winkyscript.communityServer.firmwareModules": [
+    
+        {
+            "hwId": 0,
+            "name": "Head",
+            "hwVersion": 1,
+            "fwVersion": "latest"
+        },
+        {
+            "hwId": 1,
+            "name": "Head-lex",
+            "hwVersion": 1,
+            "fwVersion": "latest"
+        }
+    ]
 }
